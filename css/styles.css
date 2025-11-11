@@ -1,0 +1,147 @@
+html {
+    box-sizing:border-box;
+}
+
+@font-face {
+font-family:"rooney-web";
+src:url("https://use.typekit.net/af/946c96/000000000000000077359bf7/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/946c96/000000000000000077359bf7/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/946c96/000000000000000077359bf7/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"espiritu";
+src:url("https://use.typekit.net/af/46d23b/00000000000000007736dd40/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/46d23b/00000000000000007736dd40/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/46d23b/00000000000000007736dd40/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"mazurquica-vf";
+src:url("https://use.typekit.net/af/fa5575/0000000000000000775d81a4/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/fa5575/0000000000000000775d81a4/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/fa5575/0000000000000000775d81a4/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100 900;font-stretch:normal;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+body {
+    background-color: #281d13;
+}
+/* .container {
+    
+} */
+.box {
+    background-color: #857764;
+    margin: 20px;
+}
+
+.headerbox {
+    background-color: #857764;
+}
+
+.list{
+    background-color: #857764;
+    font-family: "rooney-web";
+}
+.info{
+    font-family: "mazurquica-vf";
+    font-weight:400;
+    font-size: 36pt;
+    color:#281d13;
+    margin: 10px 10px 0;
+
+}
+
+ul {
+    background-color: #857764;
+    list-style: none;
+    padding: 10px;
+}
+.block {
+    background-color: #fff6eb;
+    margin: 50px;
+    padding: 0 0 30px 0;
+}
+.itemname {
+    font-family: "mazurquica-vf";
+    font-weight:400;
+    font-size: 32pt;
+    color:#281d13;
+    margin: 1em 30px -20px;
+}
+.white {
+    font-family: "rooney-web";
+    font-weight: 300;
+    font-size: 18pt;
+    color:#fff6eb;
+}
+.desc {
+    font-family: "rooney-web";
+    font-weight: 300;
+    font-size: 18pt;
+     color:#281d13;
+}
+.section {
+    font-family: "espiritu";
+    font-weight:400;
+    font-size: 45pt;
+    color:#281d13;
+    text-decoration: underline;
+    text-align: left;
+    padding: 30px 0 0 30px;
+}
+.party {
+    font-family: "espiritu";
+    font-weight:400;
+    font-size: 45pt;
+    color:#fff6eb;
+    text-align: center;
+}
+.book {
+    font-family: "mazurquica-vf";
+    font-weight:400;
+    font-size: 45pt;
+    color:#fff6eb;
+    text-align: center;
+}
+.kenosha {
+    font-family: "mazurquica-vf";
+    font-weight:400;
+    font-size: 45pt;
+    color:#281d13;
+}
+.bar {
+    font-family: "espiritu";
+    font-weight:400;
+    font-size: 24pt;
+    color:#281d13;
+    text-align:center;
+}
+.ourmenu {
+    font-family: "espiritu";
+    font-weight:400;
+    font-size: 65pt;
+    color:#281d13;
+    text-align: center;
+}
+.ourminimenu {
+    font-family: "espiritu";
+    font-weight:400;
+    font-size: 45pt;
+    color:#281d13;
+    text-align: center;
+}
+p {
+    margin: 30px 20px 20px 30px;
+    color:#281d13;
+}
+.red {
+    font-family: "mazurquica-vf";
+    font-weight: 550;
+    font-size:36pt;
+    margin: 40px 0 40px 30px;
+    color: #a93e2f;
+}
